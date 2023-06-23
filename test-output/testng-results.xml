@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T18:41:07 EET" name="Suite2" finished-at="2023-06-23T18:41:55 EET" duration-ms="48220">
+    <groups>
+    </groups>
+    <test started-at="2023-06-23T18:41:07 EET" name="Test2" finished-at="2023-06-23T18:41:55 EET" duration-ms="48220">
+      <class name="Tests.testing2">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:06 EET" name="setupSuite" finished-at="2023-06-23T18:41:07 EET" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:07 EET" name="beforeMethod" finished-at="2023-06-23T18:41:09 EET" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testing2.tc4()[pri:0, instance:Tests.testing2@56cdfb3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:07 EET" name="beforeMethod" finished-at="2023-06-23T18:41:10 EET" duration-ms="2936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testing2.tc5()[pri:0, instance:Tests.testing2@56cdfb3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:07 EET" name="beforeMethod" finished-at="2023-06-23T18:41:11 EET" duration-ms="4103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=testing2.test1()[pri:0, instance:Tests.testing2@56cdfb3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tc4()[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:09 EET" name="tc4" description="This isTC4" finished-at="2023-06-23T18:41:44 EET" duration-ms="35124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method signature="tc5()[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:10 EET" name="tc5" description="This isTC5" finished-at="2023-06-23T18:41:46 EET" duration-ms="36518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method signature="test1()[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:11 EET" name="test1" description="This is test case one now" finished-at="2023-06-23T18:41:53 EET" duration-ms="41640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:44 EET" name="afterMethod" finished-at="2023-06-23T18:41:55 EET" duration-ms="10674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc4 status=SUCCESS method=testing2.tc4()[pri:0, instance:Tests.testing2@56cdfb3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:46 EET" name="afterMethod" finished-at="2023-06-23T18:41:54 EET" duration-ms="7457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc5 status=SUCCESS method=testing2.tc5()[pri:0, instance:Tests.testing2@56cdfb3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:53 EET" name="afterMethod" finished-at="2023-06-23T18:41:55 EET" duration-ms="2430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=testing2.test1()[pri:0, instance:Tests.testing2@56cdfb3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Tests.testing2@56cdfb3b]" started-at="2023-06-23T18:41:55 EET" name="afterSuite" finished-at="2023-06-23T18:41:55 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Tests.testing2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite2 -->
+</testng-results>
